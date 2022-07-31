@@ -11,8 +11,18 @@
     border: solid 1px white;
     background-color: rgba(0, 153, 255, .3);
 }
+.logoimg:hover {
+    cursor: pointer;
+    border: solid 1px white;
+    background-color: rgba(0, 153, 255, .3);
+}
 .logo {
+    position: fixed;
     width: 13%;
+}
+.logoimg {
+    position: fixed;
+    width: 2.5%;
 }
 .logodnk{
     width: 25%;
@@ -21,34 +31,31 @@
     left: 3%;
 }
 .logo1{
-    position: fixed;
     top: 5%;
     right: 5%;
 }
 .logo2{
-    position: fixed;
     top: 20%;
     right: 5%;
 }
 .logo3{
-    position: fixed;
     top: 35%;
     right: 5%;
 }
 .logo4{
-    position: fixed;
     top: 50%;
     right: 5%;
 }
 .logo5{
-    position: fixed;
-    top: 65%;
-    right: 5%;
+    top: 70%;
+    right: 15%;
 }
 .logo6{
-    position: fixed;
-    width: 13%;
-    top: 80%;
+    top: 70%;
+    right: 10%;
+}
+.logo7{
+    top: 70%;
     right: 5%;
 }
 .showcase
@@ -71,10 +78,13 @@
     object-fit: cover;
     opacity: 1;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-device-width: 800px) {
     .logo {
         width: 30%;
         right: 35%;
+    }
+    .logoimg {
+        width: 5%;
     }
     .logo1{
         top: 10%;
@@ -89,63 +99,84 @@
         top: 46%;
     }
     .logo5{
-        top: 58%;
+        top: 65%;
+        right: 60%;
     }
     .logo6{
-        top: 70%;
-        width: 30%;
+        top: 65%;
+        right: 47.5%;
+    }
+    .logo7{
+        top: 65%;
         right: 35%;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-device-width: 450px) {
     .logo {
-        width: 30%;
-        right: 35%;
+        width: 45%;
+        right: 27.5%;
+    }
+    .logoimg {
+        width: 8%;
     }
     .logo1{
         top: 10%;
     }
     .logo2{
-        top: 18%;
+        top: 20%;
     }
     .logo3{
-        top: 26%;
+        top: 30%;
     }
     .logo4{
-        top: 34%;
-    }
-    .logo5{
-        top: 42%;
-    }
-    .logo6{
-        top: 50%;
-        width: 30%;
-        right: 35%;
-    }
-}
-@media screen and (max-width: 300px) {
-    .logo {
-        width: 30%;
-        right: 35%;
-    }
-    .logo1{
-        top: 10%;
-    }
-    .logo2{
-        top: 16%;
-    }
-    .logo3{
-        top: 22%;
-    }
-    .logo4{
-        top: 28%;
-    }
-    .logo5{
-        top: 34%;
-    }
-    .logo6{
         top: 40%;
-        width: 30%;
-        right: 35%;
+    }
+    .logo5{
+        top: 55%;
+        right: 64.5%;
+    }
+    .logo6{
+        top: 55%;
+        right: 46%;
+    }
+    .logo7{
+        top: 55%;
+        right: 27.5%;
     }
 }
+@media screen and (max-device-width: 350px) {
+    .logo {
+        width: 45%;
+        right: 27.5%;
+    }
+    .logoimg {
+        width: 8%;
+    }
+    .logo1{
+        top: 10%;
+    }
+    .logo2{
+        top: 20%;
+    }
+    .logo3{
+        top: 30%;
+    }
+    .logo4{
+        top: 40%;
+    }
+    .logo5{
+        top: 55%;
+        right: 64.5%;
+    }
+    .logo6{
+        top: 55%;
+        right: 46%;
+    }
+    .logo7{
+        top: 55%;
+        right: 27.5%;
+    }
+}
+
+
+
