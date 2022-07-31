@@ -71,3 +71,81 @@
     object-fit: cover;
     opacity: 1;
 }
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 30%;
+        right: 35%;
+    }
+    .logo1{
+        top: 10%;
+    }
+    .logo2{
+        top: 22%;
+    }
+    .logo3{
+        top: 34%;
+    }
+    .logo4{
+        top: 46%;
+    }
+    .logo5{
+        top: 58%;
+    }
+    .logo6{
+        top: 70%;
+        width: 30%;
+        right: 35%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .logo {
+        width: 30%;
+        right: 35%;
+    }
+    .logo1{
+        top: 10%;
+    }
+    .logo2{
+        top: 18%;
+    }
+    .logo3{
+        top: 26%;
+    }
+    .logo4{
+        top: 34%;
+    }
+    .logo5{
+        top: 42%;
+    }
+    .logo6{
+        top: 50%;
+        width: 30%;
+        right: 35%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .logo {
+        width: 30%;
+        right: 35%;
+    }
+    .logo1{
+        top: 10%;
+    }
+    .logo2{
+        top: 16%;
+    }
+    .logo3{
+        top: 22%;
+    }
+    .logo4{
+        top: 28%;
+    }
+    .logo5{
+        top: 34%;
+    }
+    .logo6{
+        top: 40%;
+        width: 30%;
+        right: 35%;
+    }
+}
